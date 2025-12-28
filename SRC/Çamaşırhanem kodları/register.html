@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ol - Çamaşırhanem</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+
+    <div class="split-screen">
+        
+        <div class="left-pane">
+            <div class="brand-content">
+                <img src="logo2.png" alt="Çamaşırhanem Logo" class="brand-logo-img">
+                <p>Çamaşırhane sistemini kullanmak için<br>hemen hesabını oluştur.</p>
+            </div>
+            <div class="bubble b1"></div>
+            <div class="bubble b2"></div>
+            <div class="bubble b3"></div>
+        </div>
+
+        <div class="right-pane">
+            <div class="form-container">
+                
+                <div class="form-header">
+                    <h2>Hesap Oluştur</h2>
+                    <p>Bilgilerinizi girerek kaydınızı tamamlayın.</p>
+                </div>
+
+                <form onsubmit="handleRegister(event)">
+                    
+                    <div class="input-group">
+                        <label>Ad Soyad</label>
+                        <div class="input-wrapper">
+                            <i class="ri-user-smile-line"></i>
+                            <input type="text" id="fullname" placeholder="Adınız ve Soyadınız" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>E-posta Adresi</label>
+                        <div class="input-wrapper">
+                            <i class="ri-mail-line"></i>
+                            <input type="email" id="email" placeholder="ornek@ogrenci.edu.tr" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Telefon Numarası</label>
+                        <div class="input-wrapper">
+                            <i class="ri-phone-line"></i>
+                            <input type="tel" id="phone" placeholder="05XX XXX XX XX" maxlength="11" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required>
+                        </div>
+                    </div>
+             
+                    <div class="input-group">
+                        <label>Şifre</label>
+                        <div class="input-wrapper">
+                            <i class="ri-lock-line"></i>
+                            <input type="password" id="password" placeholder="En az 6 karakter" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Şifre Tekrar</label>
+                        <div class="input-wrapper">
+                            <i class="ri-lock-password-line"></i>
+                            <input type="password" id="passwordConfirm" placeholder="Şifrenizi doğrulayın" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-login">
+                        Kayıt Ol <i class="ri-user-add-line"></i>
+                    </button>
+                </form>
+
+                <div class="footer-text">
+                    Zaten hesabınız var mı? <a href="login.html">Giriş Yap</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast-container"></div>
+    <script src="register.js"></script>
+</body>
+</html>

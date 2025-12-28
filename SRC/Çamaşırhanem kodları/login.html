@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap - Çamaşırhanem</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="split-screen">
+        
+        <div class="left-pane">
+            <div class="brand-content">
+                <img src="logo2.png" alt="Çamaşırhanem Logo" class="brand-logo-img">
+              
+                <p>Yurt çamaşırhane yönetim sistemi.</p>
+            </div>
+            <div class="bubble b1"></div>
+            <div class="bubble b2"></div>
+            <div class="bubble b3"></div>
+        </div>
+
+        <div class="right-pane">
+            <div class="form-container">
+                
+                <div class="form-header">
+                    <h2>Hoş Geldiniz</h2>
+                    <p>Hesabınıza giriş yapın</p>
+                </div>
+
+                <form onsubmit="handleLogin(event)">
+                    <div class="input-group">
+                        <label>E-posta Adresi/ Telefon Numarası</label>
+                        <div class="input-wrapper">
+                            <i class="ri-user-line"></i>
+                            <input type="text" id="username" placeholder="Örn: zeynep123" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Şifre</label>
+                        <div class="input-wrapper">
+                            <i class="ri-lock-line"></i>
+                            <input type="password" id="password" placeholder="••••••••" required>
+                            <i class="ri-eye-off-line eye-icon" onclick="togglePassword()" id="eyeIcon"></i>
+                        </div>
+                    </div>
+
+                    <div class="actions">
+                        <label class="remember-me">
+                            <input type="checkbox"> <span>Beni Hatırla</span>
+                        </label>
+                        <a href="#">Şifremi Unuttum?</a>
+                    </div>
+
+                    <button type="submit" class="btn-login">
+                        Giriş Yap <i class="ri-arrow-right-line"></i>
+                    </button>
+                </form>
+
+                <div class="footer-text">
+                    Hesabınız yok mu? <a href="register.html">Hemen Kayıt Ol</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast-container"></div>
+    <script src="login.js"></script>
+</body>
+</html>

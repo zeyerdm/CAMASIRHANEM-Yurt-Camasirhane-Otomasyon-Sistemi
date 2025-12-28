@@ -1,0 +1,288 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Sayfa -1" id="XWxFLoNqMdYmuWzRwvUG">
+    <mxGraphModel dx="512" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-1" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="IKUirob14Fv9v6ZUDX_J-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-2" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="D1&amp;nbsp; &amp;nbsp;ÖĞRENCİ TABLOSU" vertex="1">
+          <mxGeometry height="30" width="200" x="40" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-3" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IKUirob14Fv9v6ZUDX_J-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-4" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" value="D2&amp;nbsp; &amp;nbsp; &amp;nbsp;MAKİNE TABLOSU" vertex="1">
+          <mxGeometry height="30" width="200" x="40" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-5" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="IKUirob14Fv9v6ZUDX_J-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-6" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Randevu Kayıtları" vertex="1">
+          <mxGeometry height="30" width="180" x="40" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-7" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="IKUirob14Fv9v6ZUDX_J-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="ÖĞRENCİ&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3B%22%20value%3D%22S%C4%B0STEM%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%22120%22%20width%3D%22120%22%20x%3D%22310%22%20y%3D%22320%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="120" x="120" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-9" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="ÇAMAŞIRHANE SORUMLUSU" vertex="1">
+          <mxGeometry height="120" width="120" x="600" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.024;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="IKUirob14Fv9v6ZUDX_J-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="451" />
+              <mxPoint x="330" y="451" />
+            </Array>
+            <mxPoint x="360" y="451" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Rezervasyon Talebi" vertex="1">
+          <mxGeometry height="30" width="100" x="250" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Rezervasyon bilgisi" vertex="1">
+          <mxGeometry height="30" width="100" x="250" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Onaylı Öğrenci Listesi" vertex="1">
+          <mxGeometry height="30" width="100" x="490" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Kullanım arıza raporları" vertex="1">
+          <mxGeometry height="30" width="100" x="490" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="0.0" vertex="1">
+          <mxGeometry height="40" width="60" x="390" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="ÇAMAŞIRHANEM" vertex="1">
+          <mxGeometry height="120" width="120" x="360" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="460" />
+            </Array>
+            <mxPoint x="480" y="460" as="sourcePoint" />
+            <mxPoint x="600" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-18" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-9" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.406;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="IKUirob14Fv9v6ZUDX_J-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="450" />
+            </Array>
+            <mxPoint x="570" y="430" as="sourcePoint" />
+            <mxPoint x="477" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="0.0" vertex="1">
+          <mxGeometry height="30" width="60" x="390" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-20" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="IKUirob14Fv9v6ZUDX_J-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="&lt;div&gt;Rapor ve Arıza Yönetimini&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="910" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-22" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IKUirob14Fv9v6ZUDX_J-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="1050" />
+              <mxPoint x="850" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;QR Kod ve Konum Bilgisini Doğrula&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="680" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-24" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="IKUirob14Fv9v6ZUDX_J-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="930" />
+              <mxPoint x="990" y="930" />
+            </Array>
+            <mxPoint x="990" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-25" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IKUirob14Fv9v6ZUDX_J-54" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="&#xa;Süreç Takibi ve Bildirim&#xa;&#xa;" vertex="1">
+          <mxGeometry height="110" width="120" x="930" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-27" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="IKUirob14Fv9v6ZUDX_J-23" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-28" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.592;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" target="IKUirob14Fv9v6ZUDX_J-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="750" />
+              <mxPoint x="99" y="750" />
+            </Array>
+            <mxPoint x="555" y="834.9999999999998" as="sourcePoint" />
+            <mxPoint x="100" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Rezervasyon Oluştur" vertex="1">
+          <mxGeometry height="100" width="100" x="570" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-30" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="IKUirob14Fv9v6ZUDX_J-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Kayıt Bilgilerini Kontrol Et" vertex="1">
+          <mxGeometry height="100" width="100" x="360" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-32" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="IKUirob14Fv9v6ZUDX_J-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="ÖĞRENCİ" vertex="1">
+          <mxGeometry height="100" width="100" x="40" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;i&gt;Öğrenci bilgisi&lt;/i&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="260" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;i&gt;Makine durum bilgisi&lt;/i&gt;" vertex="1">
+          <mxGeometry height="30" width="146" x="337" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-36" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.35;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="1560" />
+            </Array>
+            <mxPoint x="710" y="1600" as="sourcePoint" />
+            <mxPoint x="950" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="1.0" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="2.0" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="3.0" vertex="1">
+          <mxGeometry height="30" width="60" x="700" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-40" parent="1" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Rezervasyon bilgisi" vertex="1">
+          <mxGeometry height="40" width="180" x="293" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="4.0" vertex="1">
+          <mxGeometry height="30" width="60" x="960" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-42" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=1;exitY=0.097;exitDx=0;exitDy=0;exitPerimeter=0;" target="IKUirob14Fv9v6ZUDX_J-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="1190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="5.0" vertex="1">
+          <mxGeometry height="30" width="60" x="940" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-44" parent="1" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="&lt;i&gt;Arıza Raporu&lt;/i&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="950" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-45" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="IKUirob14Fv9v6ZUDX_J-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="1235" />
+              <mxPoint x="1120" y="1235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Çamaşırhane sorumlusu" vertex="1">
+          <mxGeometry height="100" width="100" x="1260" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-47" parent="1" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" value="Kullanım Raporları ve Arıza Listesi" vertex="1">
+          <mxGeometry height="30" width="190" x="1051" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-48" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" value="D4&amp;nbsp; &amp;nbsp;ARIZA TABLOSU" vertex="1">
+          <mxGeometry height="30" width="200" x="930" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="D3" vertex="1">
+          <mxGeometry height="30" width="40" x="50" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-50" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IKUirob14Fv9v6ZUDX_J-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="1235" />
+            </Array>
+            <mxPoint x="810" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-51" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="D3&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; RANDEVU TABLOSU" vertex="1">
+          <mxGeometry height="30" width="200" x="830" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-52" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="IKUirob14Fv9v6ZUDX_J-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="1085" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-53" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="D6&amp;nbsp; &amp;nbsp; &amp;nbsp; KOTA TABLOSU" vertex="1">
+          <mxGeometry height="30" width="200" x="40" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="ÖĞRENCİ" vertex="1">
+          <mxGeometry height="100" width="100" x="1141" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-55" parent="1" style="text;whiteSpace=wrap;html=1;" value="Tamamlandı Bildirimi" vertex="1">
+          <mxGeometry height="40" width="140" x="1076" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-56" parent="1" style="text;whiteSpace=wrap;html=1;" value="Rapor Çıktısı" vertex="1">
+          <mxGeometry height="40" width="100" x="1096" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-57" parent="1" style="text;whiteSpace=wrap;html=1;" value="Kota kontrol" vertex="1">
+          <mxGeometry height="40" width="70" x="380" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-58" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.861;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" target="IKUirob14Fv9v6ZUDX_J-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-59" parent="1" style="text;whiteSpace=wrap;html=1;" value="Öğrenci Arıza Talebi" vertex="1">
+          <mxGeometry height="40" width="150" x="1030" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-60" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" value="D5&amp;nbsp; &amp;nbsp;CEZA TABLOSU" vertex="1">
+          <mxGeometry height="30" width="200" x="1100" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-61" parent="1" style="text;whiteSpace=wrap;html=1;" value="Ceza Puanı Bilgisi" vertex="1">
+          <mxGeometry height="40" width="130" x="1020" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="ÖĞRENCİ" vertex="1">
+          <mxGeometry height="100" width="100" x="373" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-63" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.627;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" target="IKUirob14Fv9v6ZUDX_J-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-64" edge="1" parent="1" source="IKUirob14Fv9v6ZUDX_J-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.883;entryY=0.976;entryDx=0;entryDy=0;entryPerimeter=0;" target="IKUirob14Fv9v6ZUDX_J-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-65" parent="1" style="text;whiteSpace=wrap;html=1;" value="Randevu Kayıtları" vertex="1">
+          <mxGeometry height="40" width="130" x="720" y="1555" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-66" parent="1" style="text;whiteSpace=wrap;html=1;" value="Randevu Verisi" vertex="1">
+          <mxGeometry height="40" width="110" x="720" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-67" parent="1" style="text;whiteSpace=wrap;html=1;" value="Aktif Randevu Bilgisi" vertex="1">
+          <mxGeometry height="40" width="150" x="343" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-68" parent="1" style="text;whiteSpace=wrap;html=1;" value="İşlem Başlatma Onayı" vertex="1">
+          <mxGeometry height="40" width="150" x="855" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-69" parent="1" style="text;whiteSpace=wrap;html=1;" value="Doğrulanmış&amp;nbsp;&lt;div&gt;Kullanıcı&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Bilgisi&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="190" x="470" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-70" parent="1" style="text;whiteSpace=wrap;html=1;" value="QR Kod ve Konum Verisi" vertex="1">
+          <mxGeometry height="40" width="170" x="560" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-71" parent="1" style="text;whiteSpace=wrap;html=1;" value="Giriş Bilgileri" vertex="1">
+          <mxGeometry height="40" width="100" x="230" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="IKUirob14Fv9v6ZUDX_J-72" parent="1" style="text;whiteSpace=wrap;html=1;" value="İşlem verileri&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="915" y="1010" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,456 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Sayfa -1" id="L7Dpi478O96UMYmdD4jb">
+    <mxGraphModel dx="3804" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-3" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Öğrenci Randevu&amp;nbsp;&lt;br&gt;Alacak" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-5" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-2" parent="1" style="whiteSpace=wrap;html=1;" value="Öğrencinin Çamaşırhane sisteminde kaydı var mı?" vertex="1">
+          <mxGeometry height="60" width="250" x="275" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-9" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-12" connectable="0" parent="yitsgx6pK-LRPGV1g4ps-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Hayır" vertex="1">
+          <mxGeometry relative="1" x="-0.2133" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-14" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-15" connectable="0" parent="yitsgx6pK-LRPGV1g4ps-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Evet" vertex="1">
+          <mxGeometry relative="1" x="-0.24" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Kayıt&amp;nbsp;&lt;br&gt;var mı?" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-11" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-8" parent="1" style="whiteSpace=wrap;html=1;" value="Öğrenci Yeni Kayıt Oluşturur" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-18" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-13" parent="1" style="whiteSpace=wrap;html=1;" value="Web üzerinden&amp;nbsp; giriş sayfasına girer ve sisteme giriş talebinde bulunur&amp;nbsp; ve sms kontrolüne girer." vertex="1">
+          <mxGeometry height="100" width="250" x="275" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-23" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="585" />
+              <mxPoint x="120" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-24" connectable="0" parent="yitsgx6pK-LRPGV1g4ps-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Hayır" vertex="1">
+          <mxGeometry relative="1" x="0.0993" y="5" as="geometry">
+            <mxPoint x="5" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-26" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-27" connectable="0" parent="yitsgx6pK-LRPGV1g4ps-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Evet" vertex="1">
+          <mxGeometry relative="1" x="-0.5221" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-17" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="sms kontrolünden geçti mi" vertex="1">
+          <mxGeometry height="80" width="80" x="360" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-29" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-25" parent="1" style="whiteSpace=wrap;html=1;" value="Öğrenci sistem üzerinden istediği makine tipini seçer ve sistem bütün makineleri listeler , öğrenci ertesi gün veya bugün için makinelerin boş saatinden kendisine sıra alır.&lt;div&gt;&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="265" x="267.5" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-33" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-34" connectable="0" parent="yitsgx6pK-LRPGV1g4ps-33" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Evet" vertex="1">
+          <mxGeometry relative="1" x="-0.2543" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aVyn0euJYTjSGJN4h1hA-2" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aVyn0euJYTjSGJN4h1hA-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-130" y="855" />
+              <mxPoint x="-130" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aVyn0euJYTjSGJN4h1hA-3" connectable="0" parent="aVyn0euJYTjSGJN4h1hA-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Hayır" vertex="1">
+          <mxGeometry relative="1" x="-0.0598" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-28" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Makinelerde ertesi gün&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;veya bugün için boş&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;sıra var mı ?&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="177.5" x="311.25" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-37" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-32" parent="1" style="whiteSpace=wrap;html=1;" value="Öğrenci ertesi gün veya bugün için sıra alır.&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-35" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Sistem otomatik olarak kayıdı oluşturur ve öğrenciye sms bilgilendirmesi yapar" vertex="1">
+          <mxGeometry height="80" width="177" x="510" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-40" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-36" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Sistem öğrenciye smsle randevu&amp;nbsp;&lt;div&gt;hatırlatması yapar ve öğrenci isteğe bağlı&lt;div&gt;&amp;nbsp;çamaşırhaneye gider&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="256.25" x="271.88" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-42" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-44" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-43" connectable="0" parent="yitsgx6pK-LRPGV1g4ps-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Hayır" vertex="1">
+          <mxGeometry relative="1" x="-0.1163" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-67" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-66" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-69" connectable="0" parent="yitsgx6pK-LRPGV1g4ps-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Evet" vertex="1">
+          <mxGeometry relative="1" x="-0.2449" y="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-39" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Öğrenci çamaşırhaneye&lt;div&gt;&amp;nbsp;gitmeye karar verdi mi?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="180" x="310.01" y="1164" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-47" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-46" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-48" connectable="0" parent="yitsgx6pK-LRPGV1g4ps-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="evet" vertex="1">
+          <mxGeometry relative="1" x="-0.3926" y="7" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-56" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-55" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="1380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-65" connectable="0" parent="yitsgx6pK-LRPGV1g4ps-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Hayır" vertex="1">
+          <mxGeometry relative="1" x="-0.1944" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-44" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Öğrenci sistem&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;üzerinden randevusunu&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;iptal etti mi&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="129" width="152.5" x="87.5" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-50" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-46" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Öğrenci sistemden randevusunu iptal eder." vertex="1">
+          <mxGeometry height="70" width="155" x="-150" y="1199" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-59" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-49" parent="1" style="whiteSpace=wrap;html=1;" value="Sistem makinenin o saatini boş olarak ayarlar ve öğrenciye ceza uygulamaz" vertex="1">
+          <mxGeometry height="60" width="120" x="-320" y="1204" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-51" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Bitir" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="3050" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-62" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-52" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="-275" y="1850" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-58" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-57" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-55" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Öğrenci sistemden randevusunu iptal etmez" vertex="1">
+          <mxGeometry height="60" width="155" x="-70" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-61" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-245" y="1545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-57" parent="1" style="whiteSpace=wrap;html=1;" value="Sistem randevu saatinde kayıt yapılan makinenin qr kodu okutulmadığ için öğrenciye ceza uygular" vertex="1">
+          <mxGeometry height="90" width="185" x="-85" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-7" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-66" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Öğrenci zamanında&lt;div&gt;makinesine gider çamaşırlarını makinaya yükler.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="185" x="307.5" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-79" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-78" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-80" connectable="0" parent="yitsgx6pK-LRPGV1g4ps-79" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Hayır" vertex="1">
+          <mxGeometry relative="1" x="-0.1238" y="3" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-9" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-11" connectable="0" parent="DpcIhUVzUZsxOqV1Pi4t-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Evet" vertex="1">
+          <mxGeometry relative="1" x="-0.1467" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-72" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Makine sorunsuz çalıştı mı&amp;nbsp;" vertex="1">
+          <mxGeometry height="90" width="120" x="340" y="2090" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-82" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-81" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-78" parent="1" style="whiteSpace=wrap;html=1;" value="Makine çalışmadığı zaman öğrenci sistem üzerinden arıza kaydı oluşturur ve kayıt çamaşırhane sorumluların önüne düşer ve makineye bakıma gelirler" vertex="1">
+          <mxGeometry height="60" width="240" x="650" y="2105" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-87" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-86" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-3" connectable="0" parent="yitsgx6pK-LRPGV1g4ps-87" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Hayır" vertex="1">
+          <mxGeometry relative="1" x="-0.1834" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-12" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-91">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1130" y="2290" />
+              <mxPoint x="590" y="2290" />
+              <mxPoint x="590" y="1550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-13" connectable="0" parent="DpcIhUVzUZsxOqV1Pi4t-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Evet" vertex="1">
+          <mxGeometry relative="1" x="-0.8777" y="6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-81" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Makinenin sorun çözüldü mü?" vertex="1">
+          <mxGeometry height="112.5" width="130" x="1065" y="2078.75" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-85" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-83" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Öğrenci yeniden randevu oluşturur.&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1070" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-88" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-86" parent="1" style="whiteSpace=wrap;html=1;" value="Görevliler sistem üzerinden o makineyi devre dışı bırakır ve randevusu olan tüm öğrencilere durum hakkında sms atılır" vertex="1">
+          <mxGeometry height="60" width="260" x="1000" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-94" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-93" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-91" parent="1" style="whiteSpace=wrap;html=1;" value="Öğrenci web uygulamasına girer ve qr okuma işlemine girer.Sistem öğrencinin çamaşırhanede olduğunu teyit etmek için çamaşırhanede bulunan bluetooth cihazına bağlanmasını ister&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="270" x="265" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-96" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-95" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-93" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Öğrenci makinenin üzerindeki qr&lt;div&gt;&amp;nbsp;kodu okutur&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="330" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-97" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-91">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="1870" />
+              <mxPoint x="130" y="1548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-99" connectable="0" parent="yitsgx6pK-LRPGV1g4ps-97" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Hayır" vertex="1">
+          <mxGeometry relative="1" x="0.1137" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-102" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-101" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-5" connectable="0" parent="yitsgx6pK-LRPGV1g4ps-102" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Evet" vertex="1">
+          <mxGeometry relative="1" x="-0.5061" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-95" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Öğrencinin cihazı&amp;nbsp;&lt;div&gt;bluetooth bağlı mı&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="150" x="325" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-8" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="2090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-101" parent="1" style="whiteSpace=wrap;html=1;" value="Sistem öğrenciyi onaylar ve makine bitimine süre sayar." vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="1990" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-41" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-103" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Sistem öğrenciye makinenin bitmeye yaklaştığını hatırlatır." vertex="1">
+          <mxGeometry height="90" width="185" x="307.5" y="2240" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-16" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-17" connectable="0" parent="DpcIhUVzUZsxOqV1Pi4t-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Hayır" vertex="1">
+          <mxGeometry relative="1" x="-0.0099" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-25" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DpcIhUVzUZsxOqV1Pi4t-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-40" connectable="0" parent="DpcIhUVzUZsxOqV1Pi4t-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Evet" vertex="1">
+          <mxGeometry relative="1" x="-0.1176" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-105" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Öğrenci zamanında&amp;nbsp;&lt;div&gt;makinanın qr koudunu okutup çamaşırlarını aldı mı?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="185" x="307.51" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-110" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="yitsgx6pK-LRPGV1g4ps-109" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-107" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Çamaşırhane görevlisi makineden çamaşırları&lt;div&gt;&amp;nbsp;alır.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="150" x="-60" y="2567.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-112" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="15" y="3118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-109" parent="1" style="whiteSpace=wrap;html=1;" value="Sistem öğrenciye ceza uygular." vertex="1">
+          <mxGeometry height="60" width="120" x="-45" y="2780" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-15" edge="1" parent="1" source="yitsgx6pK-LRPGV1g4ps-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yitsgx6pK-LRPGV1g4ps-114" parent="1" style="whiteSpace=wrap;html=1;" value="Öğrenci tekrar qr kodu okutur ve makinadan çamaşırlarını alır" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-20" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Bir öğrenci aynı makine türünden(yıkama/kurutma) günde sadece bir defa randevu alabilir.Haftada 4 randevu hakkı bulunmaktadır" vertex="1">
+          <mxGeometry height="80" width="260" x="567" y="687.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-29" edge="1" parent="1" source="DpcIhUVzUZsxOqV1Pi4t-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DpcIhUVzUZsxOqV1Pi4t-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-31" connectable="0" parent="DpcIhUVzUZsxOqV1Pi4t-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Hayır" vertex="1">
+          <mxGeometry relative="1" x="-0.2071" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-35" edge="1" parent="1" source="DpcIhUVzUZsxOqV1Pi4t-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="DpcIhUVzUZsxOqV1Pi4t-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-36" connectable="0" parent="DpcIhUVzUZsxOqV1Pi4t-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Evet" vertex="1">
+          <mxGeometry relative="1" x="-0.5952" y="-1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-24" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Öğrencinin yıkama&lt;div&gt;&amp;nbsp;sonrası hemen kurutma randevusu var mı?&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="160" x="320.01" y="2710" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-30" edge="1" parent="1" source="DpcIhUVzUZsxOqV1Pi4t-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="yitsgx6pK-LRPGV1g4ps-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-28" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Yıkama/kurutma işlemi başarıyla tamamlanmıştır" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="2893" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-38" edge="1" parent="1" source="DpcIhUVzUZsxOqV1Pi4t-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DpcIhUVzUZsxOqV1Pi4t-37" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-34" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Öğrenci çamaşırlarını&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;kurutma makinesine yükler&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ve sistemi açar&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="70" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-39" edge="1" parent="1" source="DpcIhUVzUZsxOqV1Pi4t-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-37" parent="1" style="whiteSpace=wrap;html=1;" value="Öğrenci sistemden kurutma makiesinin qr kodunu okutur&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="1990" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-42" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Sistem her öğrenciye 10 dakika zaman tanımlar 10 dakika içine çamaşırlarını makiye yüklemek zorundadır yoksa ceza alır.&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="320" x="550" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="DpcIhUVzUZsxOqV1Pi4t-43" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Sistem her öğrenciye 10 dakika zaman tanımlar. 10 dakika içine çamaşırlarını makineden almak zorundadır yoksa ceza alır.&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="305" x="525" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="aVyn0euJYTjSGJN4h1hA-8" edge="1" parent="1" source="aVyn0euJYTjSGJN4h1hA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="aVyn0euJYTjSGJN4h1hA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVyn0euJYTjSGJN4h1hA-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Öğrenci sistemde bulunan boş makine bildirimine tıklar." vertex="1">
+          <mxGeometry height="60" width="120" x="-490" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="aVyn0euJYTjSGJN4h1hA-4" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Gün içinde randevu iptali ya da randevusuna gitmeyen öğrencilerden boşalan makineleri kullanmak isteyene öğrencilere bildirim atar.Sıra sistemini bozmamak için sadece kısa programlarda çalıştırabilirler.10 dakika içinde makineyi çalıştırması gerekir" vertex="1">
+          <mxGeometry height="115" width="320" x="-540" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="aVyn0euJYTjSGJN4h1hA-10" edge="1" parent="1" source="aVyn0euJYTjSGJN4h1hA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aVyn0euJYTjSGJN4h1hA-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xeImZspdjwu9Lcr0LVxZ-3" connectable="0" parent="aVyn0euJYTjSGJN4h1hA-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Evet" vertex="1">
+          <mxGeometry relative="1" x="-0.2344" y="-5" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aVyn0euJYTjSGJN4h1hA-14" edge="1" parent="1" source="aVyn0euJYTjSGJN4h1hA-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aVyn0euJYTjSGJN4h1hA-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xeImZspdjwu9Lcr0LVxZ-4" connectable="0" parent="aVyn0euJYTjSGJN4h1hA-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Hayır" vertex="1">
+          <mxGeometry relative="1" x="-0.2359" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aVyn0euJYTjSGJN4h1hA-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Boş makine bildirimi geldi mi?" vertex="1">
+          <mxGeometry height="100" width="105" x="-482.5" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="xeImZspdjwu9Lcr0LVxZ-7" edge="1" parent="1" source="aVyn0euJYTjSGJN4h1hA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVyn0euJYTjSGJN4h1hA-9" parent="1" style="whiteSpace=wrap;html=1;" value="Öğrenci sistemden gelen boş makine randevusunu onaylar." vertex="1">
+          <mxGeometry height="60" width="120" x="-230" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="aVyn0euJYTjSGJN4h1hA-15" edge="1" parent="1" source="aVyn0euJYTjSGJN4h1hA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yitsgx6pK-LRPGV1g4ps-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aVyn0euJYTjSGJN4h1hA-13" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&amp;nbsp; &amp;nbsp;Öğrenci makine sırası için ertesi günü bekler" vertex="1">
+          <mxGeometry height="70" width="150" x="-505" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="aVyn0euJYTjSGJN4h1hA-17" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="Sisteme kayıtlı numaraya doğrulama kodu gönderilir." vertex="1">
+          <mxGeometry height="80" width="210" x="572.5" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="xeImZspdjwu9Lcr0LVxZ-1" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="KYK sisteminde kayıtlı olan öğrenciler sistemi kullanmak için kayıt yaptırabilir.Burda KYK kayıtı kontrol edilmektedir." vertex="1">
+          <mxGeometry height="100" width="287.5" x="572.5" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

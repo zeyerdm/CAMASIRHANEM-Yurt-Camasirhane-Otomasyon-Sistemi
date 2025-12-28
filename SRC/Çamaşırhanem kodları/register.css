@@ -1,0 +1,193 @@
+:root {
+    --primary: #10617D;       
+    --primary-dark: #0D4E64;
+    --text-main: #1E293B;
+    --text-sub: #64748B;
+    --bg-input: #F1F5F9;
+    --border: #E2E8F0;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', 'Segoe UI', sans-serif; }
+
+body { height: 100vh; overflow: hidden; /* Sayfa dışına taşmayı engeller */ }
+
+.split-screen {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+/* --- SOL TARAF --- */
+.left-pane {
+    width: 45%;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.brand-content { text-align: center; z-index: 2; }
+.brand-logo-img { width: 280px; margin-bottom: 20px; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2)); }
+.left-pane h1 { font-size: 32px; font-weight: 700; margin-bottom: 10px; }
+.left-pane p { font-size: 16px; opacity: 0.9; line-height: 1.5; }
+
+/* Dekoratif Baloncuklar */
+.bubble { position: absolute; background: rgba(255,255,255,0.05); border-radius: 50%; }
+.b1 { width: 200px; height: 200px; top: -50px; left: -50px; }
+.b2 { width: 300px; height: 300px; bottom: -100px; right: -50px; }
+.b3 { width: 80px; height: 80px; top: 20%; right: 10%; }
+
+/* --- SAĞ TARAF (SCROLL ÖZELLİĞİ EKLENDİ) --- */
+.right-pane {
+    width: 55%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* İçeriği üstten başlat */
+    overflow-y: auto; /* Form uzunsa kaydırmaya izin ver */
+    padding: 40px 0; /* Üstten alttan boşluk */
+}
+
+.form-container {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+    /* Dikeyde ortalamak için margin auto */
+    margin: auto 0; 
+}
+
+.form-header { margin-bottom: 30px; }
+.form-header h2 { font-size: 28px; color: var(--text-main); font-weight: 700; margin-bottom: 5px; }
+.form-header p { color: var(--text-sub); font-size: 15px; }
+
+/* INPUT STİLLERİ */
+.input-group { margin-bottom: 18px; }
+.input-group label { display: block; font-size: 13px; font-weight: 600; color: var(--text-main); margin-bottom: 6px; }
+
+.input-wrapper { position: relative; }
+.input-wrapper input {
+    width: 100%;
+    padding: 14px 14px 14px 45px;
+    background: var(--bg-input);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 15px;
+    color: var(--text-main);
+    transition: 0.2s;
+    outline: none;
+}
+
+.input-wrapper i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-sub);
+    font-size: 18px;
+}
+
+.input-wrapper input:focus {
+    background: white;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(16, 97, 125, 0.1);
+}
+.input-wrapper input:focus + i { color: var(--primary); }
+
+/* BUTON */
+.btn-login {
+    width: 100%;
+    padding: 16px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    margin-top: 10px;
+}
+.btn-login:hover { background-color: var(--primary-dark); transform: translateY(-1px); }
+
+.footer-text { margin-top: 25px; text-align: center; font-size: 14px; color: var(--text-sub); }
+.footer-text a { color: var(--primary); font-weight: 700; text-decoration: none; }
+
+/* MOBİL */
+@media (max-width: 768px) {
+    .left-pane { display: none; }
+    .right-pane { width: 100%; padding: 20px; }
+}
+
+/* TOAST */
+#toast-container { position: fixed; top: 20px; right: 20px; z-index: 1000; }
+.toast {
+    background: white; padding: 15px 20px; margin-bottom: 10px;
+    border-left: 5px solid; border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    display: flex; align-items: center; gap: 10px;
+    font-size: 14px; font-weight: 600; color: var(--text-main);
+    animation: slideIn 0.3s ease;
+}
+@keyframes slideIn { from { transform: translateX(100%); } to { transform: translateX(0); } }
+/* --- MOBİL UYUMLULUK (Responsive) --- */
+
+@media (max-width: 768px) {
+    
+    /* 1. Ekranı Dikey Böl */
+    .split-screen {
+        flex-direction: column; /* Yan yana değil, alt alta diz */
+        height: auto; /* Sabit yükseklik iptal */
+        min-height: 100vh;
+    }
+
+    /* 2. Sol Taraf (Marka Alanı) -> Üst Banner Olur */
+    .left-pane {
+        width: 100%;
+        height: 220px; /* Üstte sabit bir yükseklik */
+        padding: 20px;
+        flex-direction: row; /* Logo ve yazıyı yan yana alalım (isteğe bağlı) */
+        gap: 15px;
+        text-align: left;
+    }
+
+    /* Dekoratif Baloncukları Mobilde Gizle (Karmaşayı önler) */
+    .bubble { display: none; }
+
+    /* Logo ve Yazı Ayarları */
+    .brand-logo-img {
+        width: 80px; /* Logo küçülür */
+        margin-bottom: 0;
+    }
+    
+    .brand-content {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        text-align: left;
+    }
+
+    .brand-content h1 { font-size: 22px; margin-bottom: 2px; }
+    .brand-content p { font-size: 13px; display: none; /* Mobilde uzun yazıyı gizle */ }
+
+    /* 3. Sağ Taraf (Form Alanı) */
+    .right-pane {
+        width: 100%;
+        height: auto;
+        padding: 30px 20px;
+        border-top-left-radius: 24px; /* Hafif bir kart görünümü verelim */
+        border-top-right-radius: 24px;
+        margin-top: -20px; /* Üstteki mavi alanın içine hafifçe girsin */
+        background: #ffffff;
+        box-shadow: 0 -10px 20px rgba(0,0,0,0.05);
+    }
+
+    .form-container {
+        padding: 0;
+        max-width: 100%;
+    }
+}
