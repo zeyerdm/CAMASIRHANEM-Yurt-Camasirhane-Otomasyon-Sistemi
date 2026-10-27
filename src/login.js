@@ -17,7 +17,7 @@ function handleLogin(e) {
     else if (u === "ogrenci" && p === "1234") {
         showToast("Giriş başarılı! Hoş geldin Zeynep.", "success");
         setTimeout(() => {
-            window.location.href = "çamaşırhane.html"; // Öğrenci Paneline Git
+            window.location.href = "camasirhane.html"; // Öğrenci Paneline Git
         }, 1500);
     } 
     // 3. Hatalı Giriş

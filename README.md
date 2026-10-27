@@ -1,36 +1,85 @@
-🧺 Çamaşırhanem - Sistem Analizi ve Tasarımı Projesi
-Bu proje, bir çamaşırhane işletmesinin uçtan uca dijital dönüşüm sürecini, finansal fizibilite çalışmalarını ve sistem mimarisini kapsamaktadır. Proje hem yönetimsel analizleri hem de yazılım geliştirme süreçlerini bir arada sunar.
+# 🧺 Çamaşırhanem — Yurt Çamaşırhane Otomasyon Sistemi
 
-📁 Proje Yapısı ve İçerik
-SRC/: İşletme yönetim sistemi için geliştirilen kaynak kodlar (HTML, CSS, JavaScript).
+> Yurt çamaşırhanesi için uçtan uca sistem analizi, tasarımı ve web tabanlı prototip: fizibilite, Gantt planı, karar tabloları, DFD/ER diyagramları ve HTML/CSS/JavaScript arayüzü.
+>
+> *End-to-end system analysis & design project for a dormitory laundry: feasibility study, Gantt plan, decision tables, DFD/ER diagrams and an HTML/CSS/JS web prototype.*
 
-DOCS/: Projenin akademik ve yönetimsel dökümantasyonu:
+![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![draw.io](https://img.shields.io/badge/draw.io-F08705?logo=diagramsdotnet&logoColor=white)
 
-Fizibilite Çalışması: Yatırım maliyeti ve geri dönüş analizi.
+## 📌 Proje Hakkında
 
-Proje Planlama: Excel üzerinde hazırlanmış Gantt Şeması.
+Bu proje, bir yurt çamaşırhanesinin dijital dönüşüm sürecini **Sistem Analizi ve Tasarımı** yaklaşımıyla ele alır. Proje hem yönetimsel analizleri (fizibilite, planlama, karar mekanizmaları) hem de bu analizlere dayanarak geliştirilen web arayüzü prototipini içerir.
 
-Karar Mekanizmaları: Karar tabloları ve süreç analizleri.
+## ✨ Prototip Özellikleri
 
-Sunum Dosyası: Projenin özet sunumu .
+- **Giriş / Kayıt:** Öğrenci kayıt ekranı ve rol tabanlı giriş (öğrenci / yönetici)
+- **Öğrenci paneli:** Makine durumlarını görüntüleme ve çamaşırhane işlemleri
+- **Yönetici paneli:** Çamaşırhane kurallarının ve sistemin yönetimi
+- **Bildirimler:** Toast mesajlarıyla kullanıcı geri bildirimi
+- Veriler tarayıcının `localStorage` alanında tutulur (sunucusuz prototip)
 
-ASSETS/:İş akış, veri akış,ağ tasarımı,veritabanı tasarımı, varlık ilişki diyagramı:
+**Demo hesapları**
 
-Veritabanı Tasarımı: Normalize edilmiş ER diyagramı.
+| Rol | Kullanıcı adı | Şifre |
+| --- | --- | --- |
+| Yönetici | `admin` | `1234` |
+| Öğrenci | `ogrenci` | `1234` |
 
-İş Akışları: Veri akış (DFD) ve ağ tasarımları.
+## 📁 Proje Yapısı
 
-📊 Sistem Tasarımı Önizlemesi
-🗄️ Veritabanı Şeması
-Projenin veri yapısını gösteren diyagram  ASSETS/ klasöründen ulaşabilirsiniz.
+```
+.
+├── src/                          # Web prototipi (HTML, CSS, JavaScript)
+│   ├── login.html                # Giriş ekranı (başlangıç sayfası)
+│   ├── register.html             # Öğrenci kayıt ekranı
+│   ├── camasirhane.html          # Öğrenci paneli
+│   └── admin.html                # Yönetici paneli
+├── docs/                         # Proje dokümantasyonu
+│   ├── sistem-analizi-raporu.docx
+│   ├── sistem-analizi-sunumu.pptx
+│   ├── gantt-semasi.xlsx
+│   └── karar-tablosu.xlsx
+└── assets/                       # Tasarım çıktıları
+    ├── veritabani-semasi.png
+    └── diyagramlar/
+        ├── is-akis-diyagrami.drawio
+        ├── veri-akis-diyagrami.drawio
+        ├── varlik-iliski-diyagrami.drawio
+        └── ag-tasarimi.drawio
+```
 
-🌐 Ağ ve İş Akış Tasarımı
-Sistemin çalışma mantığını ve ağ yapısını içeren çizimlere ASSETS/ klasöründen ulaşabilirsiniz.
+## 📊 Analiz ve Tasarım Çıktıları
 
-🛠️ Kullanılan Teknolojiler ve Araçlar
-Yazılım: HTML, CSS, JavaScript, SQL
+| Çıktı | Dosya |
+| --- | --- |
+| Sistem analizi raporu (fizibilite, maliyet ve geri dönüş analizi) | `docs/sistem-analizi-raporu.docx` |
+| Proje sunumu | `docs/sistem-analizi-sunumu.pptx` |
+| Proje planı (Gantt şeması) | `docs/gantt-semasi.xlsx` |
+| Karar tablosu | `docs/karar-tablosu.xlsx` |
+| İş akış diyagramı | `assets/diyagramlar/is-akis-diyagrami.drawio` |
+| Veri akış diyagramı (DFD) | `assets/diyagramlar/veri-akis-diyagrami.drawio` |
+| Varlık–ilişki diyagramı (ER) | `assets/diyagramlar/varlik-iliski-diyagrami.drawio` |
+| Ağ tasarımı | `assets/diyagramlar/ag-tasarimi.drawio` |
+| Veritabanı şeması | `assets/veritabani-semasi.png` |
 
-Analiz & Tasarım: 
-Draw.io (Diyagramlar),
-Microsoft Excel (Gantt & Karar Tabloları),
-Microsoft Word & PowerPoint (Raporlama)
+### 🗄️ Veritabanı Şeması
+
+![Veritabanı şeması](assets/veritabani-semasi.png)
+
+> `.drawio` dosyaları [app.diagrams.net](https://app.diagrams.net) üzerinden açılabilir.
+
+## 🚀 Çalıştırma
+
+Kurulum gerekmez. Depoyu klonlayıp `src/login.html` dosyasını tarayıcıda açmanız yeterlidir.
+
+## 🛠️ Kullanılan Teknolojiler ve Araçlar
+
+- **Yazılım:** HTML5, CSS3, JavaScript
+- **Analiz & Tasarım:** draw.io (diyagramlar), Microsoft Excel (Gantt & karar tabloları), Microsoft Word & PowerPoint (raporlama)
+
+## 👩‍💻 Geliştirici
+
+**Zeynep Erdem** — [github.com/zeyerdm](https://github.com/zeyerdm)
